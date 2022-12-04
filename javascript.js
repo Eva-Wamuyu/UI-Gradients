@@ -45,7 +45,7 @@ next.onclick =()=> {
         setGradients(gradients[counter],gradients2[counter]);
     }
     p1.innerText = gradients[counter];
-    p2.innerText = gradients[counter];
+    p2.innerText = gradients2[counter];
 }
 previous.onclick =()=> {
     if(counter <= 0){
@@ -57,7 +57,7 @@ previous.onclick =()=> {
     setGradients(gradients[counter],gradients2[counter]);
     }
     p1.innerText = gradients[counter];
-    p2.innerText = gradients[counter];
+    p2.innerText = gradients2[counter];
  
 }
 const setGradients = (col1, col2)=>{
